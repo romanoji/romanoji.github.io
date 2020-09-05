@@ -4,8 +4,14 @@ jobs:
   - name: Beta District
     position: Software Engineer
     period: 2017 - 2020
-    desc: A job description is a document that describes the general tasks, or other related, and responsibilities of a position. It may specify the functionary to whom the position reports.
+    desc:
+      - ...
+      - Helping with technical interviews.
+      - "Tech stack: Ruby, Rails, AWS, Docker, Kubernetes, RabbitMQ, JavaScript, AngularJS, Bootstrap."
   - name: Madkom SA
     position: PHP Developer
     period: 2014 - 2017
-    desc: A job description is a document that describes the general tasks, or other related, and responsibilities of a position. It may specify the functionary to whom the position reports.
+    desc:
+      - Development of web applications for clients from public sector,
+        especially development of DMS (Document management system).
+      - "Tech stack: PHP, Symfony, PostgreSQL, Docker, JavaScript, jQuery, Bootstrap, IBM Integration Bus v10."

@@ -7,3 +7,5 @@ items:
     level: 4
   - name: Ruby (on Rails)
     level: 6
+  - name: Python
+    level: 2
