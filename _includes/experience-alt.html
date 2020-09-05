@@ -1,0 +1,44 @@
+<section class="row">
+    <div class="col pl-0 pr-0">
+        <h2 class="section-title">
+            <span class="icon {{ site.data.experience.icon }}"></span>
+            <span class="text-uppercase">{{ site.data.experience.title }}</span>
+        </h2>
+        <div class="section-contents">
+            <div class="jobs">
+                <ul class="list-unstyled mb-0">
+                    {% for job in site.data.experience.jobs %}
+                    <li class="job-item">
+                        <div class="row">
+                            <div class="col-4">
+                                <span class="job-period">{{ job.period }}</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <span class="job-position">{{ job.position }}</span>
+                            </div>
+                            <div class="col-8">
+                                <span class="job-name">{{ job.name }}</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8 offset-4">
+                                {% if job.desc.first %}
+                                <ul>
+                                    {% for item in job.desc %}
+                                    <li>{{ item }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% else %}
+                                <span class="job-desc">{{ job.desc }}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
