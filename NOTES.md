@@ -4,5 +4,4 @@ height: 1056px; width: 816px; - CV
 
 To do:
 - add /cv path
-- make 2 columns
 - generate PDF automatically
