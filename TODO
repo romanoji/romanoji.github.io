@@ -1,0 +1,11 @@
+./wkhtmltopdf -s A3 --disable-smart-shrinking index.html cv.pdf
+
+wkhtmltopdf -s A3 --disable-smart-shrinking --enable-local-file-access en.html cv.pdf
+
+
+node.js
+mustache support -> data to other file
+hold just a template
+compile to pdf
+
+multiple templates??

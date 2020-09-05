@@ -1,0 +1,169 @@
+body {
+    background: #dddddd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-header {
+    /*font-size: 18px;*/
+    color: #ff9200;
+    letter-spacing: 0.054em;
+    text-transform: uppercase;
+}
+
+.icon {
+    width: 1.25em;
+    text-align: center;
+}
+
+#cv {
+    /*border: 1px solid white;*/
+    border: 1px solid lightgray;
+    max-width: 900px;
+    background: white;
+    margin-top: 50px;
+    padding: 20px 50px;
+}
+
+#cv > header, #cv > section {
+    border-bottom: 1px dotted black;
+    padding: 20px 5px 15px;
+}
+
+/*#cv section:last-of-type {*/
+    /*border-bottom: none;*/
+/*}*/
+
+#cv > header {
+    border-bottom: 3px double gray;
+    padding-top: 15px;
+}
+
+#cv > footer {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 30px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.details img.photo {
+    /*border: 2px solid lightgray; /!*border: 0.07em solid lightgray;*!/*/
+    border-radius: 50%;
+    margin: 5px;
+    /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);*/ /* wkhtmltopdf */
+    width: 150px;
+    float: left;
+}
+
+.details .info {
+    float: left;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+
+.details .info .name {
+    font-weight: bold;
+}
+
+.details .info .profession {
+    color: #666666;
+}
+
+.contact {
+    display: inline-block;
+}
+
+.contact .contact-header {
+    color: #ff9200;
+}
+
+.contact .contact-item {
+    line-height: 25px;
+}
+
+.progress .progress-bar.progress-bar-text-left {
+    text-align: left;
+}
+
+.progress .progress-bar.progress-bar-text-left > b {
+    margin-left: 10px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill .stars {
+    display: inline;
+}
+
+.orange {
+    color: orange;
+}
+.gray {
+    color: dimgray;
+}
+
+/* CIRCLE ICON */
+.circle-icon-container {
+    margin: 10px 5px 0;
+    text-align: center;
+}
+
+.circle-icon-container .description {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.circle-icon {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.circle-icon.circle-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.5;
+    border-radius: 25px;
+}
+
+/* BADGE COLORS */
+.badge-default {
+    background-color: #777;
+}
+
+.badge-primary {
+    background-color: #337ab7;
+}
+
+.badge-success {
+    background-color: #5cb85c;
+}
+
+.badge-info {
+    background-color: #5bc0de;
+}
+
+.badge-warning {
+    background-color: #f0ad4e;
+}
+
+.badge-danger {
+    background-color: #d9534f;
+}
