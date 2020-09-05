@@ -1,0 +1,13 @@
+<div class="contact">
+    <ul class="list-unstyled">
+        {% for kv in site.data.contact.items %}
+        {% assign contact = kv.last %}
+        <li class="contact-item">
+            <a href="{{ contact.link }}">
+                <span class="icon {{ contact.icon }}"></span>
+                <span>{{ contact.desc }}</span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

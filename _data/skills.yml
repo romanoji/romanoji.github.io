@@ -1,0 +1,9 @@
+title: Skills
+icon: fa fa-bolt
+items:
+  - name: PHP
+    level: 4
+  - name: JavaScript
+    level: 4
+  - name: Ruby (on Rails)
+    level: 6

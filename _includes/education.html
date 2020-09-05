@@ -1,0 +1,27 @@
+<section class="row">
+    <div class="col pl-0 pr-0">
+        <h2 class="section-title">
+            <span class="{{ site.data.education.icon }}"></span>
+            <span class="text-uppercase">{{ site.data.education.title }}</span>
+        </h2>
+        <div class="section-contents">
+            <div class="education">
+                <ul class="list-unstyled">
+                    {% for item in site.data.education.items %}
+                    <li class="education-item">
+                        <div class="row">
+                            <div class="col">
+                                <p class="education-title mb-1">{{ item.title }}</p>
+                                <p>
+                                    <span class="education-period">{{ item.period }}</span>,
+                                    <span class="education-school">{{ item.school }}</span>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
