@@ -16,7 +16,7 @@
                             <div class="col">
                                 <span class="skill-level">
                                     {% for i in (1..6) %}
-                                        {% if item.level > i %}
+                                        {% if item.level >= i %}
                                         <span class="fas fa-circle"></span>
                                         {% else %}
                                         <span class="fas fa-circle text-secondary"></span>
