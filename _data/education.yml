@@ -1,9 +1,11 @@
 title: Education
-icon: fa fa-book
+icon: fa fa-graduation-cap
 items:
-  - title: Master
-    school: UG
+  - title: Master's degree, Computer Science
+    school: University of Gdańsk
     period: 2014 - 2016
-  - title: Bachelor
-    school: UG
+    desc: >
+      Master's Thesis: <i>"Isolation of Application's Business Logic based on Domain-Driven Design."</i>
+  - title: Bachelor's degree, Computer Science
+    school: University of Gdańsk
     period: 2011 - 2014
