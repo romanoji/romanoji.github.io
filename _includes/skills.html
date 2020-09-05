@@ -6,7 +6,7 @@
         </h2>
         <div class="section-contents">
             <div class="skills">
-                <ul class="list-unstyled">
+                <ul class="list-unstyled mb-0">
                     {% for item in site.data.skills.items %}
                     <li class="skill-item">
                         <div class="row">
@@ -17,9 +17,9 @@
                                 <span class="skill-level">
                                     {% for i in (1..6) %}
                                         {% if item.level > i %}
-                                            <span class="fas fa-circle"></span>
+                                        <span class="fas fa-circle"></span>
                                         {% else %}
-                                            <span class="fas fa-circle text-secondary"></span>
+                                        <span class="fas fa-circle text-secondary"></span>
                                         {% endif %}
                                     {% endfor %}
                                 </span>

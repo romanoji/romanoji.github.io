@@ -6,7 +6,7 @@
         </h2>
         <div class="section-contents">
             <div class="jobs">
-                <ul class="list-unstyled">
+                <ul class="list-unstyled mb-0">
                     {% for job in site.data.experience.jobs %}
                     <li class="job-item">
                         <div class="row">
@@ -22,7 +22,15 @@
                                 <span class="job-position">{{ job.position }}</span>
                             </div>
                             <div class="col-8">
+                                {% if job.desc.first %}
+                                <ul class="list-bulleted pl-4">
+                                    {% for item in job.desc %}
+                                    <li>{{ item }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% else %}
                                 <span class="job-desc">{{ job.desc }}</span>
+                                {% endif %}
                             </div>
                         </div>
                     </li>
