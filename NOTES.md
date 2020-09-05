@@ -1,7 +1,4 @@
-https://infograph.venngage.com/edit/40410d33-5717-41e4-910a-f2eaf392adf7
-
-height: 1056px; width: 816px; - CV
-
 To do:
 - add /cv path
 - generate PDF automatically
+- make CV responsive
