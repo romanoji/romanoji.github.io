@@ -1,11 +1,24 @@
 <section class="row">
     <div class="col pl-0 pr-0">
         <h2 class="section-title">
-            <span class="fa fa-globe"></span>
-            <span class="text-uppercase">Interests</span>
+            <span class="icon {{ site.data.interests.icon }}"></span>
+            <span class="text-uppercase">{{ site.data.interests.title }}</span>
         </h2>
         <div class="section-contents">
-            TODO
+            <div class="interests">
+                <ul class="list-unstyled list-inline">
+                    {% for interest in site.data.interests.items %}
+                    <li class="list-inline-item">
+                        <div class="interest-item float-left">
+                            <span class="interest-icon">
+                                <span class="{{ interest.icon }}"></span>
+                            </span>
+                            <span class="interest-name">{{ interest.name }}</span>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 </section>
