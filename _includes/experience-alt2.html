@@ -13,17 +13,14 @@
                             <div class="col-4">
                                 <span class="job-period">{{ job.period }}</span>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">
-                                <span class="job-position">{{ job.position }}</span>
-                            </div>
                             <div class="col-8">
+                                <span class="job-position">{{ job.position }}</span>
+                                <span>at</span>
                                 <span class="job-name">{{ job.name }}</span>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-8 offset-4">
+                            <div class="col">
                                 {% if job.desc.first %}
                                 <ul class="list-bulleted pl-4">
                                     {% for item in job.desc %}
