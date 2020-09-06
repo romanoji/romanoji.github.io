@@ -5,13 +5,21 @@ jobs:
     position: Software Engineer
     period: 2017 - 2020
     desc:
-      - ...
+      - Designing features from technical perspective.
+      - Developing, testing, delivering and maintaining features.
+      - Preparing and keeping up to date code/features documentation.
+      - Deploying applications using Kubernetes, Docker and Codeship.
+      - Leading a project based on automated customer retention marketing.
+      - Developing back office application.
+      - Developing front office applications for players, agents and affiliates.
+      - Designing DDD-lite based KYC application.
       - Helping with technical interviews.
-      - "Tech stack: Ruby, Rails, AWS, Docker, Kubernetes, RabbitMQ, JavaScript, AngularJS, Bootstrap."
-  - name: Madkom SA
+      - Mentoring Software Engineer interns.
+      - "Integrations: Optimove, Jumio, Postmark, Zendesk, FullContact."
+      - "Tech stack: Ruby, Rails, Sidekiq, PostgreSQL, AWS, Docker, Kubernetes, RabbitMQ, JavaScript, AngularJS, Bootstrap."
+  - name: Madkom S.A.
     position: PHP Developer
     period: 2014 - 2017
     desc:
-      - Development of web applications for clients from public sector,
-        especially development of DMS (Document management system).
+      - Developing and maintaining web applications for clients from public sector.
       - "Tech stack: PHP, Symfony, PostgreSQL, Docker, JavaScript, jQuery, Bootstrap, IBM Integration Bus v10."

@@ -1,11 +1,15 @@
 title: Skills
 icon: fa fa-bolt
 items:
-  - name: PHP
-    level: 4
+  - name: Ruby (on Rails)
+    level: 5
   - name: JavaScript
     level: 4
-  - name: Ruby (on Rails)
-    level: 6
+  - name: PHP
+    level: 3
   - name: Python
-    level: 2
+    level: 1
+  - name: SQL
+    level: 4
+  - name: DDD
+    level: 3

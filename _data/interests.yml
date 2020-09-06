@@ -3,7 +3,7 @@ icon: fa fa-globe
 items:
   - name: Games
     icon: fa fa-gamepad
-  - name: Manga
+  - name: Mangas
     icon: fa fa-book
   - name: Programming
     icon: fa fa-keyboard
