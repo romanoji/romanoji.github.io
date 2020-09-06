@@ -31,7 +31,7 @@
                                     {% endfor %}
                                 </ul>
                                 {% else %}
-                                <span class="job-desc">{{ job.desc }}</span>
+                                <span class="job-desc">{{ job.desc | newline_to_br }}</span>
                                 {% endif %}
                             </div>
                         </div>
