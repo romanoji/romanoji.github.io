@@ -1,0 +1,21 @@
+@media print {
+  @page {
+    size: auto;
+  }
+}
+
+body {
+  background-color: #ffffff;
+}
+
+//html, body {
+//  width: 210mm;
+//  height: 297mm;
+//}
+
+.cv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+}

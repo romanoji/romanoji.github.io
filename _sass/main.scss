@@ -1,9 +1,5 @@
 body {
-  background: #eeeeee;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 0;
+  background-color: #eeeeee;
 }
 
 a {
@@ -30,7 +26,8 @@ hr {
 .cv {
   position: relative;
   border: 1px solid lightgray;
-  background: white;
+  box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+  background-color: #ffffff;
   width: 8.5in;
   height: 12in;
   margin-top: 50px;
