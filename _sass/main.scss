@@ -23,6 +23,24 @@ hr {
   color: #bebebe;
 }
 
+// Fix browsers that doesn't support flexbox
+.row {
+  display: block;
+}
+
+@supports (display: flex) {
+  .row {
+    display: flex;
+  }
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    float: left;
+  }
+}
+// End-of-fix
+
 .cv {
   position: relative;
   border: 1px solid lightgray;
