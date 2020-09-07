@@ -1,5 +1,5 @@
 <section class="row">
-    <div class="col pl-0 pr-0">
+    <div class="col-12 col-print-12 pl-0 pr-0">
         <h2 class="section-title">
             <span class="icon {{ site.data.experience.icon }}"></span>
             <span class="text-uppercase">{{ site.data.experience.title }}</span>
@@ -10,18 +10,18 @@
                     {% for job in site.data.experience.jobs %}
                     <li class="job-item">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-4 col-print-4">
                                 <span class="job-period">{{ job.period }}</span>
                             </div>
-                            <div class="col-8">
+                            <div class="col-8 col-print-8">
                                 <span class="job-name">{{ job.name }}</span>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-4 col-print-4">
                                 <span class="job-position">{{ job.position }}</span>
                             </div>
-                            <div class="col-8">
+                            <div class="col-8 col-print-8">
                                 {% if job.desc.first %}
                                 <ul class="list-bulleted pl-4">
                                     {% for item in job.desc %}
