@@ -12,10 +12,6 @@ a {
   text-decoration: none !important;
 }
 
-.clause {
-  margin-bottom: 45px;
-}
-
 //html, body {
 //  width: 210mm;
 //  height: 297mm;
@@ -26,9 +22,19 @@ a {
   top: 0;
   left: 0;
   margin: 0 auto;
-}
 
-.header-wallpaper {
-  width: 814px;
-  height: 271px;
+  .clause {
+    margin-bottom: 45px;
+  }
+
+  header {
+    .header-wallpaper {
+      width: 814px;
+      height: 271px;
+    }
+  }
+
+  section {
+    margin-bottom: 25px;
+  }
 }
