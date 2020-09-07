@@ -10,7 +10,6 @@ jobs:
       - Deploying services using Kubernetes, Docker and Codeship.
       - Leading a project based on automated customer retention marketing.
       - Designing DDD-lite based KYC service.
-      - Helping with technical interviews.
       - Mentoring Software Engineer interns.
       - "Integrations: Optimove, Jumio, Postmark, Zendesk, FullContact."
       - "Tech stack: Ruby, Rails, Sidekiq, PostgreSQL, AWS, Docker, Kubernetes, RabbitMQ, JavaScript, AngularJS, Bootstrap."
