@@ -7,9 +7,9 @@ jobs:
     desc:
       - Developing, testing, delivering and maintaining features.
       - Preparing and keeping up to date code/features documentation.
-      - Deploying applications using Kubernetes, Docker and Codeship.
+      - Deploying services using Kubernetes, Docker and Codeship.
       - Leading a project based on automated customer retention marketing.
-      - Designing DDD-lite based KYC application.
+      - Designing DDD-lite based KYC service.
       - Helping with technical interviews.
       - Mentoring Software Engineer interns.
       - "Integrations: Optimove, Jumio, Postmark, Zendesk, FullContact."
