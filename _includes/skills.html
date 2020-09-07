@@ -1,5 +1,5 @@
 <section class="row">
-    <div class="col-12 col-print-12 pl-0 pr-0">
+    <div class="col-12 col-pr-12 pl-0 pr-0">
         <h2 class="section-title">
             <span class="icon {{ site.data.skills.icon }}"></span>
             <span class="text-uppercase">{{ site.data.skills.title }}</span>
@@ -10,10 +10,10 @@
                     {% for item in site.data.skills.items %}
                     <li class="skill-item">
                         <div class="row">
-                            <div class="col-5 col-print-5">
+                            <div class="col-5 col-pr-5">
                                 <span class="skill-name">{{ item.name }}</span>
                             </div>
-                            <div class="col-7 col-print-7">
+                            <div class="col-7 col-pr-7">
                                 <span class="skill-level">
                                     {% for i in (1..6) %}
                                         {% if item.level >= i %}
