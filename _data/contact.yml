@@ -11,7 +11,9 @@ items:
     desc: rjozwiak
     link: https://www.linkedin.com/in/rjozwiak
     icon: fab fa-linkedin
+    open_in_new_tab: true
   github:
     desc: romanoji
     link: https://github.com/romanoji
     icon: fab fa-github
+    open_in_new_tab: true

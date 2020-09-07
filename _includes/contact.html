@@ -3,7 +3,7 @@
         {% for kv in site.data.contact.items %}
         {% assign contact = kv.last %}
         <li class="contact-item">
-            <a href="{{ contact.link }}">
+            <a href="{{ contact.link }}" {% if contact.open_in_new_tab %} target="_blank"{% endif %}>
                 <span class="icon {{ contact.icon }}"></span>
                 <span>{{ contact.desc }}</span>
             </a>
