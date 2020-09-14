@@ -7,9 +7,7 @@ items:
     level: 4
   - name: PHP
     level: 3
-  - name: Python
-    level: 1
   - name: SQL
     level: 4
   - name: DDD
-    level: 4
+    level: 3
