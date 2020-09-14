@@ -1,8 +1,4 @@
 items:
-  phone:
-    desc: +&#x34;&#x38; &#x35;&#x30;&#x30; &#x36;&#x32;&#x36; &#x34;&#x36;&#x37;
-    link: tel:+&#x34;&#x38; &#x35;&#x30;&#x30; &#x36;&#x32;&#x36; &#x34;&#x36;&#x37;
-    icon: fa fa-phone
   email:
     desc: rjozwiak.net@gmail.com
     link: mailto:rjozwiak.net@gmail.com
