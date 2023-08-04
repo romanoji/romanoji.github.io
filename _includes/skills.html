@@ -11,15 +11,24 @@
                     <li class="skill-item">
                         <div class="row">
                             <div class="col-5 col-pr-5">
+                                <span class="skill-icon {{item.icon}}"></span>
                                 <span class="skill-name">{{ item.name }}</span>
                             </div>
                             <div class="col-7 col-pr-7">
                                 <span class="skill-level">
                                     {% for i in (1..6) %}
                                         {% if item.level >= i %}
-                                        <span class="fas fa-circle"></span>
+                                        <span class="fas fa-icon fa-circle"></span>
                                         {% else %}
-                                        <span class="fas fa-circle text-lightgray"></span>
+                                            {% assign half_check = i | minus: 0.5 %}
+                                            {% if item.level == half_check %}
+                                            <span class="fa-stack fa-stack-small" style="font-size: 0.5em">
+                                                <i class="fas fa-icon fa-circle fa-stack-2x" style="color: gray"></i>
+                                                <i class="fas fa-icon fa-circle-half-stroke fa-stack-2x"></i>
+                                            </span>
+                                            {% else %}
+                                            <span class="fas fa-icon fa-circle text-lightgray"></span>
+                                            {% endif %}
                                         {% endif %}
                                     {% endfor %}
                                 </span>

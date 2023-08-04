@@ -2,12 +2,23 @@ title: Skills
 icon: fa fa-bolt
 items:
   - name: Ruby/RoR
+    icon: fas fa-gem
     level: 5
-  - name: JavaScript
+  - name: Rust
+    icon: fa-brands fa-rust
     level: 4
+  - name: JavaScript
+    icon: fa-brands fa-square-js
+    level: 3
   - name: PHP
+    icon: fa-brands fa-php
     level: 3
   - name: SQL
+    icon: fas fa-database
+    level: 4
+  - name: AWS
+    icon: fas fa-cloud
     level: 4
   - name: DDD
+    icon: fas fa-sitemap
     level: 3

@@ -1,18 +1,27 @@
 title: Experience
 icon: fa fa-briefcase
 jobs:
+  - name: <br>Scalo / Altimetrik
+    position: Senior Software Engineer
+    period: "2020 - <span class=\"fas fa-ellipsis fa-sm\"></span>"
+    desc:
+      - Working on Enterprise In-Store/Omnichannel project at PayPal.
+      - Functioning as a Ruby community leader at Altimetrik.
+      - Designing Ruby Career Path (incl. skills matrix, learning paths and knowledge library).
+      - Conducting Ruby and Rust technical interviews.
+      - "Tech stack: Rust, Ruby/Rails, AWS, GraphQL, Docker."
   - name: Beta District
     position: Software Engineer
     period: 2017 - 2020
     desc:
       - Developing, testing, delivering and maintaining features.
-      - Preparing and keeping up to date code/features documentation.
+      - Preparing and keeping up to date code & features documentation.
       - Deploying services using Kubernetes, Docker and Codeship.
       - Leading a project based on automated customer retention marketing.
       - Designing DDD-lite based KYC service.
       - Mentoring Software Engineer interns.
       - "Integrations: Optimove, Jumio, Postmark, Zendesk, FullContact."
-      - "Tech stack: Ruby, Rails, Sidekiq, PostgreSQL, AWS, Docker, Kubernetes, RabbitMQ, JavaScript, AngularJS, Bootstrap."
+      - "Tech stack: Ruby/Rails, Sidekiq, PostgreSQL, AWS, Docker, Kubernetes, RabbitMQ, JavaScript, AngularJS, Bootstrap."
   - name: Madkom S.A.
     position: PHP Developer
     period: 2014 - 2017

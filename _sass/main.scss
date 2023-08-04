@@ -23,7 +23,20 @@ hr {
   color: #bebebe;
 }
 
-// Fix browsers that doesn't support flexbox
+// Font awesome stack fix
+// https://fontawesome.com/docs/web/style/stack#changing-the-default-font-size-with-stacking
+.fa-stack {
+  .fa-stack-small {
+    font-size: 0.5em;
+  }
+}
+
+.fa-icon {
+  vertical-align: middle;
+}
+// End-of-fix
+
+// Fix browsers that don't support flexbox
 .row {
   display: block;
 }
@@ -188,6 +201,11 @@ hr {
 
       &:last-child {
         margin-bottom: 0;
+      }
+
+      .skill-icon {
+        width: 1.25em;
+        text-align: center;
       }
 
       .skill-name {
