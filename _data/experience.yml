@@ -1,18 +1,30 @@
 title: Experience
 icon: fa fa-briefcase
 jobs:
-  - name: <br>Scalo / Altimetrik
-    position: Senior Software Engineer
-    period: "2020 - <span class=\"fas fa-ellipsis fa-sm\"></span>"
+  - name: Altimetrik
+    position: Senior Software Engineer / Tech Leader
+    period: "2021 - <span class=\"fas fa-ellipsis fa-sm\"></span>"
+    remote: true
     desc:
-      - Working on Enterprise In-Store/Omnichannel project at PayPal.
+      - Working on Enterprise In-Store (Omnichannel) project at Braintree/PayPal.
+      - Working on Venmo Disputes integration at Braintree/PayPal.
+      - Managing a project and leading a team of engineers.
       - Functioning as a Ruby community leader at Altimetrik.
       - Designing Ruby Career Path (incl. skills matrix, learning paths and knowledge library).
       - Conducting Ruby and Rust technical interviews.
-      - "Tech stack: Rust, Ruby/Rails, AWS, GraphQL, Docker."
+      - Onboarding new engineers.
+      - "Tech stack: Ruby/Rails, Rust, AWS, Serverless, GraphQL, Docker, Kubernetes."
+  - name: Scalo
+    position: Senior Software Engineer
+    period: 2020 - 2021
+    remote: true
+    desc:
+      - Working remotely for Altimetrik Poland.
+      - "Tech stack: Rust, Ruby/Rails, AWS, Serverless, GraphQL, Docker."
   - name: Beta District
     position: Software Engineer
     period: 2017 - 2020
+    remote: true
     desc:
       - Developing, testing, delivering and maintaining features.
       - Preparing and keeping up to date code & features documentation.
@@ -25,6 +37,9 @@ jobs:
   - name: Madkom S.A.
     position: PHP Developer
     period: 2014 - 2017
+    remote: false
     desc:
       - Developing and maintaining web applications for clients from public sector.
+      - Designing and implementing integrations based on SOAP and REST APIs.
+      - Implementing ESB-based solution for centralized data mapping and integration between different companies.
       - "Tech stack: PHP, Symfony, PostgreSQL, Docker, JavaScript, jQuery, Bootstrap, IBM Integration Bus v10."
