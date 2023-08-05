@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head-meta.html %}
+    {% include styles.html %}
+</head>
+
+<body>
+<main class="container-fluid cv">
+    <div class="row">
+        <section class="col-12 col-pr-12 cv-page">
+            {% include header.html %}
+            <div class="row">
+                <div class="col-11 col-pr-11 ml-5 pr-5 mt-5">
+                    {% include about-me.html %}
+                    <hr/>
+                </div>
+                <div class="col-11 col-pr-11 ml-5 pr-5 mt-2">
+                    {% include education.html %}
+                    <hr/>
+                </div>
+                <div class="col-11 col-pr-11 ml-5 pr-5 mt-2">
+                    {% include experience-alt3.html %}
+                    <hr/>
+                </div>
+                <div class="col-11 col-pr-11 ml-5 pr-5 mt-2">
+                    {% include skills-alt.html %}
+                    <hr/>
+                </div>
+                <div class="col-11 col-pr-11 ml-5 pr-5 mt-2">
+                    {% include interests-alt2.html %}
+                </div>
+            </div>
+            {% include footer-alt.html %}
+        </section>
+    </div>
+</main>
+</body>
+
+</html>

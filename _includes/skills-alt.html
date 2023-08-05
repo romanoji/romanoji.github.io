@@ -1,0 +1,43 @@
+<section class="row">
+    <div class="col-12 col-pr-12 pl-0 pr-0">
+        <h2 class="section-title">
+            <span class="icon {{ site.data.skills.icon }}"></span>
+            <span class="text-uppercase">{{ site.data.skills.title }}</span>
+        </h2>
+        <div class="section-contents">
+            <div class="skills">
+                <ul class="list-unstyled mb-0">
+                    {% for item in site.data.skills.items %}
+                    <li class="skill-item">
+                        <div class="row">
+                            <div class="col-4 col-pr-4">
+                                <span class="skill-icon {{item.icon}}"></span>
+                                <span class="skill-name">{{ item.name }}</span>
+                            </div>
+                            <div class="col-8 col-pr-8">
+                                <span class="skill-level">
+                                    {% for i in (1..6) %}
+                                        {% if item.level >= i %}
+                                        <span class="fas fa-icon fa-circle"></span>
+                                        {% else %}
+                                            {% assign half_check = i | minus: 0.5 %}
+                                            {% if item.level == half_check %}
+                                            <span class="fa-stack fa-stack-small" style="font-size: 0.5em">
+                                                <i class="fas fa-icon fa-circle fa-stack-2x" style="color: gray"></i>
+                                                <i class="fas fa-icon fa-circle-half-stroke fa-stack-2x"></i>
+                                            </span>
+                                            {% else %}
+                                            <span class="fas fa-icon fa-circle text-lightgray"></span>
+                                            {% endif %}
+                                        {% endif %}
+                                    {% endfor %}
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

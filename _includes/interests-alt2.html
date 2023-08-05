@@ -1,0 +1,24 @@
+<section class="row">
+    <div class="col-12 col-pr-12 pl-0 pr-0">
+        <h2 class="section-title">
+            <span class="icon {{ site.data.interests.icon }}"></span>
+            <span class="text-uppercase">{{ site.data.interests.title }}</span>
+        </h2>
+        <div class="section-contents">
+            <div class="interests">
+                <div class="row row-cols-3 justify-content-center">
+                    {% for interest in site.data.interests.items %}
+                    <div class="col-3">
+                        <div class="interest-item float-left">
+                            <div class="interest-icon">
+                                <span class="{{ interest.icon }}"></span>
+                            </div>
+                            <span class="interest-name">{{ interest.name }}</span>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

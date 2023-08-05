@@ -1,0 +1,46 @@
+<section class="row">
+    <div class="col-12 col-pr-12 pl-0 pr-0">
+        <h2 class="section-title">
+            <span class="icon {{ site.data.experience.icon }}"></span>
+            <span class="text-uppercase">{{ site.data.experience.title }}</span>
+        </h2>
+        <div class="section-contents">
+            <div class="jobs">
+                <ul class="list-unstyled mb-0">
+                    {% for job in site.data.experience.jobs %}
+                    <li class="job-item">
+                        <div class="row mb-1">
+                            <div class="col-5 col-pr-5">
+                                <span class="job-period">{{ job.period }}</span>
+                            </div>
+                            <div class="col-7 col-pr-7 text-right">
+                                <span class="job-position">{{ job.position }}</span>
+                                <span>at</span>
+                                <span class="job-name">{{ job.name }}</span>
+                                {% if job.remote %}
+                                (&nbsp;<span class="fa fa-house-chimney"></span>&nbsp;)
+                                {% else %}
+                                (&nbsp;<span class="fa fa-building"></span>&nbsp;)
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-pr-12">
+                                {% if job.desc.first %}
+                                <ul class="list-bulleted pl-4">
+                                    {% for item in job.desc %}
+                                    <li>{{ item }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% else %}
+                                <span class="job-desc">{{ job.desc | newline_to_br }}</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

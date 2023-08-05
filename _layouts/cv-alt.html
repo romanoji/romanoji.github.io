@@ -9,18 +9,20 @@
 
 <body>
 <main class="container-fluid cv">
-    {% include header.html %}
     <div class="row">
-        <div class="col-4 col-pr-4 ml-5 mt-5">
-            {% include about-me.html %}
-            {% include education.html %}
-            {% include skills.html %}
-        </div>
-        <div class="col-6 col-pr-6 ml-4 mt-5">
-            {% include experience-alt2.html %}
-        </div>
+        <section class="col-12 col-pr-12 cv-page">
+            {% include header.html %}
+            <div class="col-4 col-pr-4 ml-5 mt-5">
+                {% include about-me.html %}
+                {% include education.html %}
+                {% include skills.html %}
+            </div>
+            <div class="col-6 col-pr-6 ml-4 mt-5">
+                {% include experience-alt2.html %}
+            </div>
+            {% include footer.html %}
+        </section>
     </div>
-    {% include footer.html %}
 </main>
 </body>
 

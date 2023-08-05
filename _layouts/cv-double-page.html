@@ -2,31 +2,29 @@
 <html lang="en">
 
 <head>
-    {% include head-meta.html %}
-
+    {% include head-meta-alt.html %}
     {% include styles.html %}
 </head>
 
 <body>
 <main class="container-fluid cv">
     <div class="row">
-        <section class="col-12 col-pr-12 cv-page">
+        <section class="col-6 col-pr-6 cv-page">
             {% include header.html %}
             <div class="row">
-                <div class="col-4 col-pr-4 ml-5 mt-5">
+                <div class="col-11 col-pr-11 ml-5 mt-5">
                     {% include about-me.html %}
                     {% include education.html %}
-                </div>
-                <div class="col-6 col-pr-6 ml-3 mt-5">
-                    {% include experience-alt2.html %}
+                    {% include skills.html %}
+                    {% include interests-alt.html %}
                 </div>
             </div>
+        </section>
+        <section class="col-6 col-pr-6 cv-page">
+            {% include header-alt.html %}
             <div class="row">
-                <div class="col-4 col-pr-4 ml-5">
-                    {% include skills.html %}
-                </div>
-                <div class="col-6 col-pr-6 ml-3">
-                    {% include interests-alt.html %}
+                <div class="col-11 col-pr-11 ml-5 mt-5">
+                    {% include experience-alt3.html %}
                 </div>
             </div>
             {% include footer.html %}
