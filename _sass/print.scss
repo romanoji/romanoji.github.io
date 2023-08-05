@@ -13,12 +13,14 @@ a {
 }
 
 .cv {
-  position: fixed;
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-  width: 210mm;
-  height: 297mm;
-  border: none;
-  box-shadow: none;
+  .cv-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    border: none;
+    box-shadow: none;
+    width: 220mm;
+    // height: 297mm;
+  }
 }
