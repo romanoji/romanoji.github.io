@@ -213,25 +213,49 @@ hr {
     }
   
     .skills {
-      .skill-item {
-        margin-bottom: 3px;
+      .skill-group {
+        margin-bottom: 15px;
+
+        .skill-category {
+          .skill-category-desc {
+            font-size: 17px;
+            margin-bottom: 5px;
   
-        &:last-child {
-          margin-bottom: 0;
+            .skill-category-icon {
+              width: 1.25em;
+              text-align: center;
+            }
+    
+            .skill-category-name {
+              font-weight: bold;
+              line-height: 1.5;
+            }
+          }
         }
   
-        .skill-icon {
-          width: 1.25em;
-          text-align: center;
-        }
-  
-        .skill-name {
-          line-height: 1.5;
-        }
-  
-        .skill-level {
-          font-size: 12px;
-          letter-spacing: 2px;
+        .skill-item {
+          margin-left: 10px;
+          margin-bottom: 3px;
+    
+          &:last-child {
+            margin-bottom: 0;
+          }
+    
+          .skill-icon {
+            font-size: 16px;
+            width: 1.25em;
+            text-align: center;
+          }
+    
+          .skill-name {
+            font-size: 16px;
+            line-height: 1.5;
+          }
+    
+          .skill-level {
+            font-size: 12px;
+            letter-spacing: 2px;
+          }
         }
       }
     }

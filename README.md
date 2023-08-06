@@ -15,4 +15,4 @@ bundle exec jekyll serve
 ```
 
 ## To do
-- [ ] Expand skills - see https://www.kickresume.com/en/help-center/campuslogic-software-engineering-intern-resume-sample/
+- [ ] Improve PDF print experience (consider utilizing break-before/break-after styles)

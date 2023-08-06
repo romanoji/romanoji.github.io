@@ -1,0 +1,66 @@
+<section class="row">
+    <div class="col-12 col-pr-12 pl-0 pr-0">
+        <h2 class="section-title">
+            <span class="icon {{ site.data.skills.icon }}"></span>
+            <span class="text-uppercase">{{ site.data.categorized_skills.title }}</span>
+        </h2>
+        <div class="section-contents">
+            <div class="skills">
+                <ul class="list-unstyled mb-0">
+                    {% assign iterations = site.data.categorized_skills.items.size | divided_by: 2.0 | ceil %}
+                    {% for i in (1..iterations) %}
+                    <div class="row">
+                        {% for category in site.data.categorized_skills.items limit: 2 offset: continue %}
+                        <div class="col-6 col-pr-6">
+                            <div class="skill-group">
+                                <li class="skill-category">
+                                    <div class="skill-category-desc">
+                                        {% if category.icon %}
+                                        <span class="skill-category-icon {{category.icon}}"></span>
+                                        {% endif %}
+                                        <span class="skill-category-name">{{ category.name }}</span>
+                                    </div>
+                                </li>
+                                <ul class="list-unstyled mb-0">
+                                    {% for skill in category.items %}
+                                    <li class="skill-item">
+                                        <div class="row">
+                                            <div class="col-5 col-pr-5">
+                                                {% if skill.icon %}
+                                                <span class="skill-icon {{skill.icon}}"></span>
+                                                {% endif %}
+                                                <span class="skill-name">{{ skill.name }}</span>
+                                            </div>
+                                            <div class="col-7 col-pr-7">
+                                                <span class="skill-level">
+                                                    {% for i in (1..6) %}
+                                                        {% if skill.level >= i %}
+                                                        <span class="fas fa-icon fa-circle"></span>
+                                                        {% else %}
+                                                            {% assign half_check = i | minus: 0.5 %}
+                                                            {% if skill.level == half_check %}
+                                                            <span class="fa-stack fa-stack-small" style="font-size: 0.5em">
+                                                                <i class="fas fa-icon fa-circle fa-stack-2x" style="color: gray"></i>
+                                                                <i class="fas fa-icon fa-circle-half-stroke fa-stack-2x"></i>
+                                                            </span>
+                                                            {% else %}
+                                                            <span class="fas fa-icon fa-circle text-lightgray"></span>
+                                                            {% endif %}
+                                                        {% endif %}
+                                                    {% endfor %}
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

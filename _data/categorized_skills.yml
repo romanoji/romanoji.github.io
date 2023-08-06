@@ -1,0 +1,53 @@
+title: Skills
+icon: fa fa-bolt
+items:
+  - name: Programming Languages
+    icon: fa fa-code
+    items:
+      - name: Ruby/RoR
+        icon: fas fa-gem
+        level: 5
+      - name: Rust
+        icon: fab fa-rust
+        level: 4
+      - name: JavaScript
+        icon: fab fa-square-js
+        level: 3
+      - name: PHP
+        icon: fab fa-php
+        level: 3
+  - name: Other Techs / Tools
+    icon: fa fa-gears
+    items:
+      - name: RDBMS / SQL
+        icon: fas fa-database
+        level: 5
+      - name: noSQL
+        icon: far fa-file
+        level: 4
+      - name: CI/CD
+        icon: fa fa-arrows-spin
+        level: 4
+      - name: AWS
+        icon: fas fa-cloud
+        level: 4
+      - name: Docker
+        icon: fab fa-docker
+        level: 4
+      - name: Kuberentes
+        icon: fa fa-cubes
+        level: 3
+      - name: GraphQL
+        icon: fa fa-circle-nodes
+        level: 3
+      - name: DDD
+        icon: fas fa-sitemap
+        level: 3
+  # - name: Soft Skills
+  #   icon: fa fa-comments
+  #   items:
+  #     - name: ...
+  # - name: Patterns
+  #   icon: fa fa-diagram-project
+  #   items:
+  #     - name: ...
