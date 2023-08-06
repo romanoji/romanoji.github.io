@@ -23,7 +23,7 @@ items:
         icon: fas fa-database
         level: 5
       - name: noSQL
-        icon: far fa-file
+        icon: far fa-file-code
         level: 4
       - name: CI/CD
         icon: fa fa-arrows-spin
