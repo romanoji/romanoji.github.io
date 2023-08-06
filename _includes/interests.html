@@ -6,18 +6,18 @@
         </h2>
         <div class="section-contents">
             <div class="interests">
-                <ul class="list-unstyled list-inline">
+                <div class="row row-cols-3 justify-content-center">
                     {% for interest in site.data.interests.items %}
-                    <li class="list-inline-item">
+                    <div class="col-3">
                         <div class="interest-item float-left">
                             <div class="interest-icon">
                                 <span class="{{ interest.icon }}"></span>
                             </div>
                             <span class="interest-name">{{ interest.name }}</span>
                         </div>
-                    </li>
+                    </div>
                     {% endfor %}
-                </ul>
+                </div>
             </div>
         </div>
     </div>

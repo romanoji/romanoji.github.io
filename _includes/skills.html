@@ -10,11 +10,11 @@
                     {% for item in site.data.skills.items %}
                     <li class="skill-item">
                         <div class="row">
-                            <div class="col-5 col-pr-5">
+                            <div class="col-4 col-pr-4">
                                 <span class="skill-icon {{item.icon}}"></span>
                                 <span class="skill-name">{{ item.name }}</span>
                             </div>
-                            <div class="col-7 col-pr-7">
+                            <div class="col-8 col-pr-8">
                                 <span class="skill-level">
                                     {% for i in (1..6) %}
                                         {% if item.level >= i %}

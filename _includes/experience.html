@@ -9,19 +9,26 @@
                 <ul class="list-unstyled mb-0">
                     {% for job in site.data.experience.jobs %}
                     <li class="job-item">
-                        <div class="row">
-                            <div class="col-4 col-pr-4">
+                        <div class="row mb-1">
+                            <div class="col-auto col-pr-auto">
                                 <span class="job-period">{{ job.period }}</span>
                             </div>
-                            <div class="col-8 col-pr-8">
+                            <div class="col col-pr">
+                                <hr/>
+                            </div>
+                            <div class="col-auto col-pr-auto text-right">
+                                <span class="job-position">{{ job.position }}</span>
+                                <span>at</span>
                                 <span class="job-name">{{ job.name }}</span>
+                                {% if job.remote %}
+                                (&nbsp;<span class="fa fa-house-chimney"></span>&nbsp;)
+                                {% else %}
+                                (&nbsp;<span class="fa fa-building"></span>&nbsp;)
+                                {% endif %}
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-4 col-pr-4">
-                                <span class="job-position">{{ job.position }}</span>
-                            </div>
-                            <div class="col-8 col-pr-8">
+                            <div class="col-12 col-pr-12">
                                 {% if job.desc.first %}
                                 <ul class="list-bulleted pl-4">
                                     {% for item in job.desc %}
