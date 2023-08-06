@@ -10,10 +10,13 @@
                     {% for job in site.data.experience.jobs %}
                     <li class="job-item">
                         <div class="row mb-1">
-                            <div class="col-5 col-pr-5">
+                            <div class="col-auto col-pr-auto">
                                 <span class="job-period">{{ job.period }}</span>
                             </div>
-                            <div class="col-7 col-pr-7 text-right">
+                            <div class="col col-pr">
+                                <hr/>
+                            </div>
+                            <div class="col-auto col-pr-auto text-right">
                                 <span class="job-position">{{ job.position }}</span>
                                 <span>at</span>
                                 <span class="job-name">{{ job.name }}</span>

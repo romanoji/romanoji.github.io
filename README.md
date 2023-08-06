@@ -16,4 +16,3 @@ bundle exec jekyll serve
 
 ## To do
 - [ ] Expand skills - see https://www.kickresume.com/en/help-center/campuslogic-software-engineering-intern-resume-sample/
-- [ ] Add horizontal/vertical line to experience (between company's name and position)
