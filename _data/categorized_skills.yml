@@ -16,6 +16,9 @@ items:
       - name: PHP
         icon: fab fa-php
         level: 3
+      - name: Java
+        icon: fab fa-java
+        level: 2
   - name: Other Techs / Tools
     icon: fa fa-gears
     items:

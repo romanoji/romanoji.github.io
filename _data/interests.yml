@@ -13,3 +13,5 @@ items:
     icon: fa fa-utensils
   - name: Biking
     icon: fa fa-biking
+  - name: Dog Walking
+    icon: fa fa-dog
