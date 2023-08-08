@@ -1,6 +1,14 @@
 @media print {
   @page {
     size: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @page:first {
+    margin-top: 0;
   }
 }
 
@@ -10,6 +18,12 @@ body {
 
 a {
   text-decoration: none !important;
+}
+
+.job-item {
+  break-inside: avoid;
+  break-before: auto;
+  break-after: auto;
 }
 
 .cv {

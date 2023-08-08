@@ -13,6 +13,3 @@ bundle install
 ```
 bundle exec jekyll serve
 ```
-
-## To do
-- [ ] Improve PDF print experience (consider utilizing break-before/break-after styles)
