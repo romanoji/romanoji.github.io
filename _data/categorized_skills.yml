@@ -37,7 +37,7 @@ items:
       - name: Docker
         icon: fab fa-docker
         level: 4
-      - name: Kuberentes
+      - name: Kubernetes
         icon: fa fa-cubes
         level: 3
       - name: GraphQL
